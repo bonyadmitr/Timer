@@ -62,18 +62,26 @@
 		6604D9C820599B3600FA61CB /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				6604D9C920599B3600FA61CB /* AppDelegate.swift */,
+				669A1466205AE430005F9D18 /* App */,
+				6604D9CD20599B3600FA61CB /* Main.storyboard */,
 				6604D9CB20599B3600FA61CB /* ViewController.swift */,
-				669A14642059AC8D005F9D18 /* TimerLabel.swift */,
 				669A145E2059AAC2005F9D18 /* TimerWrapper.swift */,
 				669A14602059AAD4005F9D18 /* CountdownTimer.swift */,
 				669A14622059AB0C005F9D18 /* MonospacedDigitFont.swift */,
-				6604D9CD20599B3600FA61CB /* Main.storyboard */,
+				669A14642059AC8D005F9D18 /* TimerLabel.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		669A1466205AE430005F9D18 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6604D9C920599B3600FA61CB /* AppDelegate.swift */,
 				6604D9D020599B3600FA61CB /* Assets.xcassets */,
 				6604D9D220599B3600FA61CB /* LaunchScreen.storyboard */,
 				6604D9D520599B3600FA61CB /* Info.plist */,
 			);
-			path = Timer;
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Timer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Timer/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.by.Timer;
@@ -306,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Timer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Timer/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.by.Timer;
